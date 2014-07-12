@@ -1,0 +1,71 @@
+length of grid axis, parameter N: 2
+length of grid axis, parameter M: 2
+turn limit: 10
+water level initially: 125
+water evaporation rate: 10
+lightning probability: .07
+burn rate during a fire in current sector: 100
+contribution to burn rate during a fire in neighboring sector: 5
+rain suppression effect during rain: 100
+rain will start when clouds reach a constant water concentration
+cloud rain threshold: 0.7
+percentage of evaporated water absorbed by local clouds: 0.40
+percentage of evaporated water absorbed by neighboring clouds: 0.10
+rain intensity, the amount of water lost by clouds to environment: 40
+actual cloud integer value for rainfall to begin: 178
+contribution of neighboring sectors' water: 5
+local water contribution to vegetation: 15
+vegetation threshold for local lightning strike to cause a fire: 150
+vegetation threshold for fires in neighbors to spread into a sector 100
+n axis: 2
+m axis: 2
+Step #0
+row #0: [  fire: 0 vegetation: 145 water: 115 clouds: 138 ][  fire: 0 vegetation: 135 water: 115 clouds: 136 ]
+
+row #1: [  fire: 0 vegetation: 150 water: 115 clouds: 139 ][  fire: 0 vegetation: 150 water: 115 clouds: 139 ]
+
+Step #1
+row #0: [  fire: 0 vegetation: 165 water: 105 clouds: 151 ][  fire: 0 vegetation: 145 water: 105 clouds: 147 ]
+
+row #1: [  fire: 0 vegetation: 175 water: 105 clouds: 153 ][  fire: 0 vegetation: 175 water: 105 clouds: 153 ]
+
+Step #2
+row #0: [  fire: 0 vegetation: 185 water: 95 clouds: 164 ][  fire: 0 vegetation: 155 water: 95 clouds: 158 ]
+
+row #1: [  fire: 0 vegetation: 200 water: 95 clouds: 167 ][  fire: 0 vegetation: 200 water: 95 clouds: 167 ]
+
+Step #3
+row #0: [  fire: 0 vegetation: 205 water: 85 clouds: 177 ][  fire: 0 vegetation: 165 water: 85 clouds: 169 ]
+
+row #1: [  fire: 0 vegetation: 225 water: 85 clouds: 181 ] rain in sector 1,0![  fire: 0 vegetation: 225 water: 85 clouds: 181 ] rain in sector 1,1!
+
+Step #4
+row #0: [  fire: 0 vegetation: 215 water: 97 clouds: 150 ][  fire: 0 vegetation: 170 water: 93 clouds: 140 ]
+
+row #1: [  fire: 0 vegetation: 245 water: 93 clouds: 155 ][  fire: 0 vegetation: 250 water: 93 clouds: 155 ]
+
+Step #5
+row #0: [  fire: 0 vegetation: 235 water: 87 clouds: 163 ][  fire: 0 vegetation: 180 water: 83 clouds: 151 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 83 clouds: 169 ][  fire: 0 vegetation: 255 water: 83 clouds: 169 ]
+
+Step #6
+row #0: [  fire: 0 vegetation: 255 water: 77 clouds: 176 ][  fire: 0 vegetation: 190 water: 73 clouds: 162 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 91 clouds: 143 ][  fire: 0 vegetation: 255 water: 91 clouds: 143 ]
+
+Step #7
+row #0: [  fire: 0 vegetation: 255 water: 85 clouds: 149 ][  fire: 0 vegetation: 200 water: 63 clouds: 173 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 81 clouds: 157 ][  fire: 0 vegetation: 255 water: 81 clouds: 157 ]
+
+Step #8
+row #0: [  fire: 0 vegetation: 255 water: 75 clouds: 162 ][  fire: 0 vegetation: 210 water: 71 clouds: 144 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 71 clouds: 171 ][  fire: 0 vegetation: 255 water: 71 clouds: 171 ]
+
+Step #9
+row #0: [  fire: 0 vegetation: 255 water: 65 clouds: 175 ][  fire: 0 vegetation: 220 water: 61 clouds: 155 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 79 clouds: 145 ][  fire: 0 vegetation: 255 water: 79 clouds: 145 ]
+

@@ -1,0 +1,59 @@
+length of grid axis, parameter N: 3
+length of grid axis, parameter M: 3
+turn limit: 5
+water level initially: 125
+water evaporation rate: 10
+lightning probability: .15
+burn rate during a fire in current sector: 50
+contribution to burn rate during a fire in neighboring sector: 5
+rain suppression effect during rain: 100
+rain will start when clouds reach a constant water concentration
+cloud rain threshold: 0.7
+percentage of evaporated water absorbed by local clouds: 0.20
+percentage of evaporated water absorbed by neighboring clouds: 0.10
+rain intensity, the amount of water lost by clouds to environment: 70
+actual cloud integer value for rainfall to begin: 178
+contribution of neighboring sectors' water: 5
+local water contribution to vegetation: 15
+vegetation threshold for local lightning strike to cause a fire: 150
+vegetation threshold for fires in neighbors to spread into a sector 125
+n axis: 3
+m axis: 3
+Fire started in grid sector 0,1
+Step #0
+row #0: [  fire: 0 vegetation: 145 water: 115 clouds: 138 ][  fire: 130 vegetation: 130 water: 115 clouds: 138 ][  fire: 0 vegetation: 135 water: 115 clouds: 136 ]
+
+row #1: [  fire: 0 vegetation: 160 water: 115 clouds: 141 ][  fire: 0 vegetation: 170 water: 115 clouds: 143 ][  fire: 0 vegetation: 155 water: 115 clouds: 140 ]
+
+row #2: [  fire: 0 vegetation: 150 water: 115 clouds: 139 ][  fire: 0 vegetation: 160 water: 115 clouds: 141 ][  fire: 0 vegetation: 150 water: 115 clouds: 139 ]
+
+Fire started in grid sector 0,0
+Step #1
+row #0: [  fire: 150 vegetation: 150 water: 105 clouds: 151 ]fire in sector 0,0![  fire: 80 vegetation: 30 water: 105 clouds: 151 ][  fire: 0 vegetation: 145 water: 105 clouds: 147 ]
+
+row #1: [  fire: 0 vegetation: 195 water: 105 clouds: 157 ][  fire: 0 vegetation: 215 water: 105 clouds: 161 ][  fire: 0 vegetation: 185 water: 105 clouds: 155 ]
+
+row #2: [  fire: 0 vegetation: 175 water: 105 clouds: 153 ][  fire: 0 vegetation: 195 water: 105 clouds: 157 ][  fire: 0 vegetation: 175 water: 105 clouds: 153 ]
+
+Fire started in grid sector 0,0
+Step #2
+row #0: [  fire: 50 vegetation: 50 water: 95 clouds: 164 ][  fire: 0 vegetation: 30 water: 95 clouds: 164 ][  fire: 0 vegetation: 155 water: 95 clouds: 158 ]
+
+row #1: [  fire: 0 vegetation: 230 water: 95 clouds: 173 ][  fire: 0 vegetation: 255 water: 95 clouds: 179 ] rain in sector 1,1![  fire: 0 vegetation: 215 water: 95 clouds: 170 ]
+
+row #2: [  fire: 0 vegetation: 195 water: 95 clouds: 167 ][  fire: 0 vegetation: 220 water: 95 clouds: 173 ][  fire: 0 vegetation: 190 water: 95 clouds: 167 ]
+
+Step #3
+row #0: [  fire: 0 vegetation: 25 water: 92 clouds: 177 ][  fire: 0 vegetation: 55 water: 85 clouds: 177 ][  fire: 0 vegetation: 165 water: 85 clouds: 169 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 109 clouds: 119 ][  fire: 0 vegetation: 255 water: 109 clouds: 127 ][  fire: 0 vegetation: 245 water: 109 clouds: 115 ]
+
+row #2: [  fire: 0 vegetation: 220 water: 85 clouds: 181 ] rain in sector 2,0![  fire: 0 vegetation: 255 water: 109 clouds: 119 ][  fire: 0 vegetation: 215 water: 85 clouds: 181 ] rain in sector 2,2!
+
+Step #4
+row #0: [  fire: 0 vegetation: 55 water: 106 clouds: 120 ][  fire: 0 vegetation: 85 water: 99 clouds: 120 ][  fire: 0 vegetation: 175 water: 99 clouds: 110 ]
+
+row #1: [  fire: 0 vegetation: 255 water: 99 clouds: 135 ][  fire: 0 vegetation: 255 water: 106 clouds: 145 ][  fire: 0 vegetation: 255 water: 99 clouds: 130 ]
+
+row #2: [  fire: 0 vegetation: 245 water: 99 clouds: 125 ][  fire: 0 vegetation: 255 water: 99 clouds: 135 ][  fire: 0 vegetation: 240 water: 99 clouds: 125 ]
+
